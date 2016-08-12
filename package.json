@@ -1,0 +1,61 @@
+{
+  "name": "hapi-locale-i18n",
+  "version": "1.0.0",
+  "description": "Hapijs plugin to use i18n",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "scripts": {
+    "build": "./bin/postinstall",
+    "preinstall": "./bin/postinstall",
+    "start": "node ./",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OystParis/hapi-locale-i18n.git"
+  },
+  "keywords": [
+    "hapijs",
+    "i18n",
+    "locale"
+  ],
+  "author": "Oyst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OystParis/hapi-locale-i18n/issues"
+  },
+  "homepage": "https://github.com/OystParis/hapi-locale-i18n#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-runtime": "^6.11.6",
+    "chai": "^3.5.0",
+    "code": "^3.0.2",
+    "gulp": "^3.9.1",
+    "gulp-lab": "^1.0.6",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-mocha": "^3.0.0",
+    "gulp-nodemon": "^2.1.0",
+    "hapi": "^14.1.0",
+    "lab": "^10.9.0",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "accept-language-parser": "^1.2.0",
+    "babel-cli": "^6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-plugin-transform-runtime": "6.12.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-1": "^6.13.0",
+    "babel-register": "^6.11.6",
+    "boom": "^3.2.2",
+    "hoek": "^4.0.2",
+    "i18n": "^0.8.3"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
