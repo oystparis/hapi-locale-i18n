@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "6"
+  - "4.4"
+notifications:
+  slack: oystteam:cZK5jlk19KXe3ZhnUPSsC02n
+cache:
+  directories:
+  - node_modules
